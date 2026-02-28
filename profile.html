@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+  <h3>Student Portal</h3>
+  <ul>
+    <li>Dashboard</li>
+    <li>Profile</li>
+    <li>Courses</li>
+    <li>Results</li>
+    <li>Clearance</li>
+    <li onclick="logout()" style="cursor:pointer;">Logout</li>
+  </ul>
+</nav>
+
+<div class="profile-container">
+
+  <div class="passport-box">
+    <img id="passport" src="https://via.placeholder.com/150">
+    <input type="file" id="upload" accept="image/*">
+  </div>
+
+  <div id="studentData"></div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

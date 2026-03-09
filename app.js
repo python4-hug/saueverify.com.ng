@@ -80,21 +80,21 @@ gpa: 4.2
  ],
 
 ca:[
-      {course:"Strategy and Sustainability in the Global Economy", courseCode:"HRM 742", unit:2, score:1},
-      {course:"Leadership and Change Management", courseCode:"HRM 713", unit:2, score:1},
-      {course:"Scientific Research and Statistical Analysis", courseCode:"HRM 745", unit:1, score:1},
-      {course:"Labor Laws and Legislations", courseCode:"HRM 731", unit:1, score:1},
-      {course:"Introduction to Construction Management", courseCode:"HRM 711", unit:2, score:1},
-      {course:"Employment Relations and Practices", courseCode:"HRM 784", unit:1, score:1},
-      {course:"Motivations & Compensations Management", courseCode:"HRM 755", unit:2, score:1},
-      {course:"Management Information System", courseCode:"MIS 710", unit:1, score:1},
-      {course:"Study Guide and Principles", courseCode:"GSD 709", unit:1, score:1},
-      {course:"Labour Law", courseCode:"HRM 763", unit:2, score:1},
-      {course:"Human Resource Planning and Staffing", courseCode:"HRM 714", unit:1, score:1},
-      {course:"Employment Relations and Practices", courseCode:"HRM 717", unit:2, score:1},
-      {course:"Building Information Modeling (BIM) & Digital Technology", courseCode:"CPM 716", unit:1, score:1},
-      {course:"English Knowledge and Application Skills", courseCode:"GSD 709", unit:1, score:1},
-      {course:"Leadership and Managing People", courseCode:"CPM 741", unit:1, score:1}
+      {course:"Strategy and Sustainability in the Global Economy", courseCode:"HRM 742", unit:2, score:22},
+      {course:"Leadership and Change Management", courseCode:"HRM 713", unit:2, score:28},
+      {course:"Scientific Research and Statistical Analysis", courseCode:"HRM 745", unit:1, score:24},
+      {course:"Labor Laws and Legislations", courseCode:"HRM 731", unit:1, score:28},
+      {course:"Introduction to Construction Management", courseCode:"HRM 711", unit:2, score:28},
+      {course:"Employment Relations and Practices", courseCode:"HRM 784", unit:1, score:26},
+      {course:"Motivations & Compensations Management", courseCode:"HRM 755", unit:2, score:24},
+      {course:"Management Information System", courseCode:"MIS 710", unit:1, score:24},
+      {course:"Study Guide and Principles", courseCode:"GSD 709", unit:1, score:24},
+      {course:"Labour Law", courseCode:"HRM 763", unit:2, score:28},
+      {course:"Human Resource Planning and Staffing", courseCode:"HRM 714", unit:1, score:26},
+      {course:"Employment Relations and Practices", courseCode:"HRM 717", unit:2, score:28},
+      {course:"Building Information Modeling (BIM) & Digital Technology", courseCode:"CPM 716", unit:1, score:24},
+      {course:"English Knowledge and Application Skills", courseCode:"GSD 709", unit:1, score:28},
+      {course:"Leadership and Managing People", courseCode:"CPM 741", unit:1, score:24}
     ],
 
     assignments:[
@@ -136,20 +136,20 @@ gpa: 4.2
  ],
 
 ca:[
-      {course:"Strategy and Sustainability in the Global Economy", courseCode:"HRM 742", unit:2, score:1},
-      {course:"Leadership and Change Management", courseCode:"HRM 713", unit:2, score:1},
-      {course:"Scientific Research and Statistical Analysis", courseCode:"HRM 745", unit:1, score:1},
-      {course:"Labor Laws and Legislations", courseCode:"HRM 731", unit:1, score:1},
-      {course:"Introduction to Construction Management", courseCode:"HRM 711", unit:2, score:1},
-      {course:"Employment Relations and Practices", courseCode:"HRM 784", unit:1, score:1},
-      {course:"Motivations & Compensations Management", courseCode:"HRM 755", unit:2, score:1},
-      {course:"Management Information System", courseCode:"MIS 710", unit:1, score:1},
-      {course:"Study Guide and Principles", courseCode:"GSD 709", unit:1, score:1},
-      {course:"Labour Law", courseCode:"HRM 763", unit:2, score:1},
-      {course:"Human Resource Planning and Staffing", courseCode:"HRM 714", unit:1, score:1},
-      {course:"Employment Relations and Practices", courseCode:"HRM 717", unit:2, score:1},
-      {course:"Building Information Modeling (BIM) & Digital Technology", courseCode:"CPM 716", unit:1, score:1},
-      {course:"English Knowledge and Application Skills", courseCode:"GSD 709", unit:1, score:1},
+      {course:"Strategy and Sustainability in the Global Economy", courseCode:"HRM 742", unit:2, score:26},
+      {course:"Leadership and Change Management", courseCode:"HRM 713", unit:2, score:24},
+      {course:"Scientific Research and Statistical Analysis", courseCode:"HRM 745", unit:1, score:28},
+      {course:"Labor Laws and Legislations", courseCode:"HRM 731", unit:1, score:28},
+      {course:"Introduction to Construction Management", courseCode:"HRM 711", unit:2, score:26},
+      {course:"Employment Relations and Practices", courseCode:"HRM 784", unit:1, score:22},
+      {course:"Motivations & Compensations Management", courseCode:"HRM 755", unit:2, score:28},
+      {course:"Management Information System", courseCode:"MIS 710", unit:1, score:26},
+      {course:"Study Guide and Principles", courseCode:"GSD 709", unit:1, score:24},
+      {course:"Labour Law", courseCode:"HRM 763", unit:2, score:28},
+      {course:"Human Resource Planning and Staffing", courseCode:"HRM 714", unit:1, score:26},
+      {course:"Employment Relations and Practices", courseCode:"HRM 717", unit:2, score:22},
+      {course:"Building Information Modeling (BIM) & Digital Technology", courseCode:"CPM 716", unit:1, score:28},
+      {course:"English Knowledge and Application Skills", courseCode:"GSD 709", unit:1, score:22},
     ],
 
     assignments:[
@@ -443,5 +443,6 @@ if(pass.type==="password"){
 }else{
  pass.type="password";
 }
+
 
 }

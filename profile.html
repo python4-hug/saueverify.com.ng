@@ -1,35 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Student Profile</title>
-  <link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Student Profile</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<nav>
-  <h3>Student Portal</h3>
-  <ul>
-    <li>Dashboard</li>
-    <li>Profile</li>
-    <li>Courses</li>
-    <li>Results</li>
-    <li>Clearance</li>
-    <li onclick="logout()" style="cursor:pointer;">Logout</li>
-  </ul>
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+<div class="logo">
+<h3>Student Portal</h3>
+</div>
+<ul class="nav-links">
+  <li><a href="profile.html">Profile</a></li>
+  <li><a href="courses.html">Courses</a></li>
+  <li><a href="transcript.html">Transcript</a></li>
+  <li class="logout" onclick="logout()">Logout</li>
+</ul>
+
 </nav>
+
+
+<!-- ================= PROFILE SECTION ================= -->
 
 <div class="profile-container">
 
-  <div class="passport-box">
-    <img id="passport" src="https://via.placeholder.com/150">
-    <input type="file" id="upload" accept="image/*">
-  </div>
+<!-- LEFT SIDE (PASSPORT) -->
+<div class="passport-box">
 
-  <div id="studentData"></div>
+<img 
+id="passport" 
+src="https://via.placeholder.com/150" 
+alt="Student Passport">
+
+<label for="upload" class="upload-btn">
+Upload Passport
+</label>
+
+<input type="file" id="upload" accept="image/*">
 
 </div>
 
+
+<!-- RIGHT SIDE (STUDENT DETAILS) -->
+<div class="student-info">
+
+<h2>Student Information</h2>
+
+<div id="studentData"></div>
+
+</div>
+
+</div>
+
+
 <script src="app.js"></script>
+
 </body>
 </html>

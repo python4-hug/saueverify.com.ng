@@ -1,22 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Student Login</title>
-  <link rel="stylesheet" href="style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Student Portal Login</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
-<body class="center">
+<body class="login-page">
 
+<div class="login-container">
+
+<!-- LEFT IMAGE -->
+<div class="side-image">
+<img src="schoolimage.png" alt="School Image">
+</div>
+
+
+<!-- LOGIN FORM -->
 <div class="login-box">
-  <h2>Student Portal Login</h2>
 
-  <input type="text" id="username" placeholder="Username">
-  <input type="password" id="password" placeholder="Password">
+<h2 class="typing-text">
+<span id="typing"></span><span class="cursor">|</span>
+</h2>
 
-  <button onclick="login()">Login</button>
-  <p id="msg"></p>
+<div class="input-group">
+<input type="text" id="username" required>
+<label>Username</label>
+</div>
+
+<div class="input-group password-group">
+<input type="password" id="password" required>
+<label>Password</label>
+<span class="toggle-password" onclick="togglePassword()">👁</span>
+</div>
+
+<button id="loginBtn" onclick="login()">
+<span class="btn-text">Login</span>
+<span class="spinner"></span>
+</button>
+
+<p id="msg"></p>
+
+</div>
+
+
+<!-- RIGHT IMAGE -->
+<div class="side-image">
+<img src="schoolbuilding.png" alt="School Building">
+</div>
+
 </div>
 
 <script src="app.js"></script>
+
 </body>
 </html>

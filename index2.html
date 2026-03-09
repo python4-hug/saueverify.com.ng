@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAUEverify · profile hub</title>
+    <!-- favicon (shield) -->
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nO2WUQ6CMAxAOQUX0y/jZfQyepm9jEfDj1nGFiirEAm8l4Ut/aD7oDStVCqVSgUCrAdgPABzAJ4AvAG4A3AD4BqAszZzPpqrBcAjgI+aIHQwAGDn97sA5rYPjB8oAXj6fW+IuUWWlw0AfZ/9C4kfDAEY+LgPJM4yAJMA1j4PJS5tAIY+D0Ue2gD0fB5L3LUBmPg8kbhrA3Dw+VLiri2dz5eIuzZ2Pk8i7trY+TyJuGtj5/Mk4q6Nnc+TiLs2dj5PIu7a2Pk8ibhrY+fz3wGpVCqVSv0LvQHBb3+6yMkEeAAAAABJRU5ErkJggg==">
+    <!-- Google Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+
+        body {
+            background: #eef3f8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* navbar (at least 5 items) */
+        .navbar {
+            background: #0a2942;
+            color: white;
+            padding: 0.8rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            font-size: 1.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .mini-shield {
+            background: #f2c94c;
+            width: 32px;
+            height: 32px;
+            clip-path: polygon(50% 0%, 90% 20%, 90% 60%, 50% 100%, 10% 60%, 10% 20%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: #0a2942;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            font-weight: 500;
+        }
+
+        .nav-links a {
+            color: #e0edf5;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 0.4rem 0;
+            border-bottom: 2px solid transparent;
+            transition: 0.2s;
+        }
+
+        .nav-links a:hover {
+            border-bottom-color: #f2c94c;
+            color: white;
+        }
+
+        .nav-user {
+            background: #1f4a7a;
+            border-radius: 40px;
+            padding: 0.4rem 1.2rem;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* main container – either login or profile panel */
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        /* login card (similar to previous but with multiple accounts hint) */
+        .login-card {
+            background: rgba(255,255,255,0.9);
+            backdrop-filter: blur(8px);
+            border-radius: 2rem;
+            padding: 2.5rem;
+            width: 100%;
+            max-width: 440px;
+            box-shadow: 0 25px 45px -20px #0a2942;
+            border: 1px solid rgba(255,255,255,0.5);
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .login-header .logo-shield-lg {
+            background: #0a2942;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 0.8rem;
+        }
+
+        .logo-shield-lg .shield {
+            background: #f2c94c;
+            width: 44px;
+            height: 44px;
+            clip-path: polygon(50% 0%, 90% 20%, 90% 60%, 50% 100%, 10% 60%, 10% 20%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.8rem;
+            color: #0a2942;
+        }
+
+        .login-header h2 {
+            color: #0a2942;
+            font-weight: 700;
+        }
+
+        .user-selector {
+            margin: 1.5rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+        }
+
+        .user-btn {
+            background: white;
+            border: 1.5px solid rgba(10,41,66,0.2);
+            padding: 0.9rem 1.2rem;
+            border-radius: 60px;
+            font-weight: 600;
+            color: #0a2942;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.02);
+        }
+
+        .user-btn:hover {
+            background: #f2f7fd;
+            border-color: #0a2942;
+            transform: scale(1.02);
+        }
+
+        .user-avatar-mini {
+            width: 36px;
+            height: 36px;
+            background: #cfe1f0;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: #0a2942;
+        }
+
+        .demo-hint {
+            background: #f0f7ff;
+            border-radius: 40px;
+            padding: 0.7rem 1rem;
+            font-size: 0.85rem;
+            text-align: center;
+            color: #1f4a7a;
+            border: 1px dashed #0a2942;
+            margin-top: 1.5rem;
+        }
+
+        /* Profile panel (shown after login) */
+        .profile-panel {
+            background: white;
+            border-radius: 2.5rem;
+            width: 100%;
+            max-width: 1300px;
+            box-shadow: 0 25px 50px -15px #0a2942;
+            padding: 2rem 2.5rem;
+            border: 1px solid rgba(255,255,255,0.7);
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-bottom: 2.5rem;
+            background: #f8fbfe;
+            padding: 1.5rem 2rem;
+            border-radius: 2rem;
+        }
+
+        /* editable passport */
+        .passport-container {
+            position: relative;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background: #d9e6f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            box-shadow: 0 12px 25px -10px #0a2942;
+            border: 4px solid white;
+            flex-shrink: 0;
+        }
+
+        .passport-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background: #c0d3e3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: 600;
+            color: #0a2942;
+        }
+
+        .edit-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10,41,66,0.7);
+            color: white;
+            text-align: center;
+            font-size: 0.8rem;
+            padding: 6px 0;
+            cursor: pointer;
+            backdrop-filter: blur(3px);
+            transition: 0.2s;
+            border: 0;
+            width: 100%;
+            font-weight: 500;
+            border-top: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .edit-overlay:hover {
+            background: #0a2942;
+            padding: 8px 0;
+        }
+
+        .student-name-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #0a2942;
+            line-height: 1.2;
+        }
+
+        .matric-badge {
+            background: #0a2942;
+            color: white;
+            padding: 0.4rem 1.5rem;
+            border-radius: 40px;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+
+        /* detail grid */
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem 2rem;
+            background: #f9fcfd;
+            padding: 2rem;
+            border-radius: 2rem;
+            margin-top: 1rem;
+        }
+
+        .detail-item {
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px dashed #b9d0e3;
+            padding-bottom: 0.5rem;
+        }
+
+        .detail-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            color: #3f627f;
+        }
+
+        .detail-value {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #0a2942;
+            word-break: break-word;
+        }
+
+        .clearance-badge {
+            background: #e6f0e7;
+            color: #1f7840;
+            font-weight: 700;
+            padding: 0.25rem 1rem;
+            border-radius: 40px;
+            display: inline-block;
+            font-size: 0.9rem;
+            width: fit-content;
+        }
+
+        .back-link {
+            margin-top: 2rem;
+            text-align: right;
+        }
+
+        .back-btn {
+            background: transparent;
+            border: 2px solid #0a2942;
+            padding: 0.6rem 2rem;
+            border-radius: 40px;
+            font-weight: 600;
+            color: #0a2942;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #0a2942;
+            color: white;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVIGATION (at least 5 items) visible always -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <div class="mini-shield">S</div>
+            <span>SAUEverify</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">dashboard</a></li>
+            <li><a href="#">academics</a></li>
+            <li><a href="#">finance</a></li>
+            <li><a href="#">library</a></li>
+            <li><a href="#">support</a></li>
+            <li><a href="#">help</a></li> <!-- sixth for good measure -->
+        </ul>
+        <div class="nav-user" id="navUserPlaceholder">
+            <span>⚡</span> <span id="navUserName">guest</span>
+        </div>
+    </nav>
+
+    <div class="container" id="mainContainer">
+        <!-- LOGIN CARD (multiple profiles) -->
+        <div id="loginView" class="">
+            <div class="login-card">
+                <div class="login-header">
+                    <div class="logo-shield-lg">
+                        <div class="shield">S</div>
+                    </div>
+                    <h2>student login</h2>
+                    <p style="color:#346a92; margin-top:6px;">select your profile</p>
+                </div>
+
+                <div class="user-selector" id="userList">
+                    <!-- dynamically generated from JS, but we also include static for clarity -->
+                </div>
+
+                <div class="demo-hint">
+                    <strong>🔐 multiple profiles:</strong> click any to view their editable profile.
+                </div>
+            </div>
+        </div>
+
+        <!-- PROFILE VIEW (hidden initially) -->
+        <div id="profileView" class="hidden" style="width:100%;">
+            <div class="profile-panel" id="profilePanel">
+                <!-- dynamic content filled by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            // ---------- MOCK STUDENT DATABASE ----------
+            const students = [
+                {
+                    id: 'S001',
+                    username: 'jane.smith',
+                    pass: 'any',
+                    fullname: 'Jane Adanna Smith',
+                    matric: '2021/SAU/1456',
+                    programme: 'B.Sc. Computer Science',
+                    faculty: 'Computing & Informatics',
+                    department: 'Computer Science',
+                    session: '2024/2025',
+                    completedSemester: '5 (Second semester)',
+                    clearance: 'Cleared (no holds)',
+                    dob: '2003-04-12',
+                    certificateNo: 'SAU-CS-2025-112',
+                    admissionDate: '2021-09-01',
+                    graduationDate: '2025-06-30',
+                    gender: 'Female',
+                    nationality: 'Nigerian',
+                    passportEmoji: '👩🏾‍🎓'
+                },
+                {
+                    id: 'S002',
+                    username: 'musa.kabir',
+                    pass: 'any',
+                    fullname: 'Musa Kabir Okafor',
+                    matric: '2022/SAU/2891',
+                    programme: 'B.Eng. Electrical Engineering',
+                    faculty: 'Engineering',
+                    department: 'Electrical/Electronics',
+                    session: '2024/2025',
+                    completedSemester: '4 (First semester)',
+                    clearance: 'Pending (library due)',
+                    dob: '2002-11-03',
+                    certificateNo: 'SAU-EE-2026-045',
+                    admissionDate: '2022-01-10',
+                    graduationDate: '2026-07-15',
+                    gender: 'Male',
+                    nationality: 'Nigerian',
+                    passportEmoji: '👨🏾‍🔧'
+                },
+                {
+                    id: 'S003',
+                    username: 'amina.yusuf',
+                    pass: 'any',
+                    fullname: 'Amina Yusuf El-Rufai',
+                    matric: '2020/SAU/3320',
+                    programme: 'B.A. Economics',
+                    faculty: 'Social Sciences',
+                    department: 'Economics',
+                    session: '2024/2025',
+                    completedSemester: '7 (First semester)',
+                    clearance: 'Cleared (honours)',
+                    dob: '2001-07-21',
+                    certificateNo: 'SAU-EC-2025-208',
+                    admissionDate: '2020-09-14',
+                    graduationDate: '2025-05-22',
+                    gender: 'Female',
+                    nationality: 'Nigerian',
+                    passportEmoji: '👩🏾‍💼'
+                },
+                {
+                    id: 'S004',
+                    username: 'david.owusu',
+                    pass: 'any',
+                    fullname: 'David Kwame Owusu',
+                    matric: '2023/SAU/4712',
+                    programme: 'B.Sc. Business Admin',
+                    faculty: 'Management',
+                    department: 'Accounting',
+                    session: '2024/2025',
+                    completedSemester: '2 (Second semester)',
+                    clearance: 'In progress (course reg)',
+                    dob: '2004-02-09',
+                    certificateNo: 'SAU-BA-2027-099',
+                    admissionDate: '2023-08-20',
+                    graduationDate: '2027-06-01',
+                    gender: 'Male',
+                    nationality: 'Ghanaian',
+                    passportEmoji: '👨🏾‍💻'
+                },
+                {
+                    id: 'S005',
+                    username: 'ifat.umar',
+                    pass: 'any',
+                    fullname: 'Ifat Umar Bello',
+                    matric: '2021/SAU/5503',
+                    programme: 'LL.B. Law',
+                    faculty: 'Law',
+                    department: 'Private Law',
+                    session: '2024/2025',
+                    completedSemester: '6 (Second semester)',
+                    clearance: 'Cleared (moot court)',
+                    dob: '2002-12-01',
+                    certificateNo: 'SAU-LAW-2025-334',
+                    admissionDate: '2021-09-01',
+                    graduationDate: '2025-06-30',
+                    gender: 'Female',
+                    nationality: 'Nigerian',
+                    passportEmoji: '👩🏾‍⚖️'
+                }
+            ];
+
+            // references
+            const loginDiv = document.getElementById('loginView');
+            const profileDiv = document.getElementById('profileView');
+            const profilePanel = document.getElementById('profilePanel');
+            const navUserName = document.getElementById('navUserName');
+            const userListDiv = document.getElementById('userList');
+
+            // helper: build profile HTML for a given student
+            function renderProfile(student) {
+                return `
+                    <div class="profile-header">
+                        <div class="passport-container" id="passportEditContainer">
+                            <div class="passport-img" id="passportDisplay">${student.passportEmoji}</div>
+                            <button class="edit-overlay" id="editPassportBtn">✎ edit photo</button>
+                        </div>
+                        <div style="flex:1">
+                            <div class="student-name-title">${student.fullname}</div>
+                            <div style="display:flex; gap:1rem; align-items:center; margin-top:0.5rem; flex-wrap:wrap;">
+                                <span class="matric-badge">${student.matric}</span>
+                                <span class="clearance-badge" style="background:${student.clearance.includes('Cleared')?'#d5f0dc':'#fff1d6'}; color:${student.clearance.includes('Cleared')?'#0f5c2b':'#a16500'};">${student.clearance}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail-grid">
+                        <div class="detail-item"><span class="detail-label">full name</span><span class="detail-value">${student.fullname}</span></div>
+                        <div class="detail-item"><span class="detail-label">matric number</span><span class="detail-value">${student.matric}</span></div>
+                        <div class="detail-item"><span class="detail-label">programme</span><span class="detail-value">${student.programme}</span></div>
+                        <div class="detail-item"><span class="detail-label">faculty</span><span class="detail-value">${student.faculty}</span></div>
+                        <div class="detail-item"><span class="detail-label">department</span><span class="detail-value">${student.department}</span></div>
+                        <div class="detail-item"><span class="detail-label">session</span><span class="detail-value">${student.session}</span></div>
+                        <div class="detail-item"><span class="detail-label">completed semester</span><span class="detail-value">${student.completedSemester}</span></div>
+                        <div class="detail-item"><span class="detail-label">clearance</span><span class="detail-value">${student.clearance}</span></div>
+                        <div class="detail-item"><span class="detail-label">date of birth</span><span class="detail-value">${student.dob}</span></div>
+                        <div class="detail-item"><span class="detail-label">certificate number</span><span class="detail-value">${student.certificateNo}</span></div>
+                        <div class="detail-item"><span class="detail-label">admission date</span><span class="detail-value">${student.admissionDate}</span></div>
+                        <div class="detail-item"><span class="detail-label">graduation date</span><span class="detail-value">${student.graduationDate}</span></div>
+                        <div class="detail-item"><span class="detail-label">gender</span><span class="detail-value">${student.gender}</span></div>
+                        <div class="detail-item"><span class="detail-label">nationality</span><span class="detail-value">${student.nationality}</span></div>
+                    </div>
+                    <div class="back-link">
+                        <button class="back-btn" id="logoutBtn">← switch account</button>
+                    </div>
+                `;
+            }
+
+            // fill user list dynamically
+            function buildUserList() {
+                userListDiv.innerHTML = '';
+                students.forEach(s => {
+                    const btn = document.createElement('div');
+                    btn.className = 'user-btn';
+                    btn.setAttribute('data-username', s.username);
+                    btn.innerHTML = `<div class="user-avatar-mini">${s.passportEmoji}</div>
+                                     <div style="display:flex; flex-direction:column;">
+                                        <strong>${s.fullname}</strong>
+                                        <small style="color:#2f577b;">${s.matric}</small>
+                                     </div>`;
+                    btn.addEventListener('click', (e) => {
+                        // login action: show profile
+                        showProfileForUser(s.username);
+                    });
+                    userListDiv.appendChild(btn);
+                });
+            }
+
+            // show profile given username (mock authentication)
+            function showProfileForUser(username) {
+                const student = students.find(s => s.username === username);
+                if (!student) return;
+                // update navbar
+                navUserName.innerText = student.fullname.split(' ')[0];
+                // render profile inside profilePanel
+                profilePanel.innerHTML = renderProfile(student);
+                // switch views
+                loginDiv.classList.add('hidden');
+                profileDiv.classList.remove('hidden');
+
+                // add event listener for passport edit (editable)
+                const editBtn = document.getElementById('editPassportBtn');
+                if (editBtn) {
+                    editBtn.addEventListener('click', function() {
+                        const newEmoji = prompt('✏️ Edit passport emoji / symbol (e.g. 👨‍🎓, 🧑‍💻, 🧕):', student.passportEmoji);
+                        if (newEmoji && newEmoji.trim() !== '') {
+                            student.passportEmoji = newEmoji.trim();
+                            document.getElementById('passportDisplay').innerText = student.passportEmoji;
+                        } else {
+                            alert('emoji unchanged');
+                        }
+                    });
+                }
+
+                // logout button
+                const logoutBtn = document.getElementById('logoutBtn');
+                if (logoutBtn) {
+                    logoutBtn.addEventListener('click', () => {
+                        loginDiv.classList.remove('hidden');
+                        profileDiv.classList.add('hidden');
+                        navUserName.innerText = 'guest';
+                    });
+                }
+            }
+
+            // initial: build user list
+            buildUserList();
+
+            // optional: quick auto-login for demo? no, we let them click.
+            // but we also want to handle any hash or default maybe.
+            // If someone lands, they see login.
+
+            // for better demo, make sure logout returns to fresh list.
+            window.showProfileForUser = showProfileForUser; // debug
+        })();
+    </script>
+    <!-- ensure hidden class is defined -->
+    <style>
+        .hidden { display: none !important; }
+    </style>
+</body>
+</html>

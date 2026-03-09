@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transcript</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MAIN NAVBAR -->
+<nav class="navbar">
+  <h3>Student Portal</h3>
+  <ul class="nav-links">
+    <li onclick="window.location='profile.html'">Profile</li>
+    <li onclick="window.location='results.html'">Results</li>
+    <li onclick="window.location='assignment.html'">Assignments</li>
+    <li onclick="window.location='ca.html'">Continous Assessment</li>
+    <li onclick="window.location='gpa.html'">GPA</li>
+    <li onclick="window.location='transcript.html'">CGPA</li>
+    <li class="logout" onclick="logout()">Logout</li>
+  </ul>
+</nav>
+
+<!-- TRANSCRIPT SECTION -->
+<div class="transcript-container">
+
+  <!-- SUB-NAVBAR FOR TRANSCRIPT -->
+  <ul class="sub-nav">
+    <li>Results</li>
+    <li>Assignments</li>
+    <li>CA</li>
+  </ul>
+
+  <!-- NOTE -->
+  <div class="transcript-note">
+    <p>Note: This is the Transcript Section. All results, assignments, and continuous assessment scores will appear in the nav section for each.</p>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

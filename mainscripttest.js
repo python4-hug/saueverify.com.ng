@@ -1,4 +1,6 @@
+// =======================
 // STUDENT DATABASE
+// =======================
 
 const students = [
 
@@ -52,118 +54,58 @@ gpa: 4.2
 
 },
 
-// students 2 PGD
+const students = [
+  {
+    username: "amina",
+    password: "abcd",
+    fullname: "Amina Bello",
+    matric: "U2022/045",
+    programme: "BSc Accounting",
+    faculty: "Management Science",
+    department: "Accounting",
+    semester: "Second Semester",
+    clearance: "Pending",
+    dob: "02-11-2002",
+    certificateNumber: "CERT-002",
+    admissionDate: "11-10-2022",
+    graduationDate: "11-10-2026",
+    gender: "Female",
+    academicYear: "2026/2027",
+    nationality: "Nigerian",
 
-{
- username:"heah27",
- password:"abcd",
- fullname:"Henry Ameh",
- matric:"2602027",
- programme:"PGD Construction project Management",
- faculty:"Management Science",
- department:"Construction project Management",
- semester:"First Semester",
- clearance:"Cleared",
- dob:"14-04-1983",
- certificateNumber:"NOT-ISSUED",
- admissionDate:"24-02-2026",
- graduationDate:"00-00-0000",
- gender:"Male",
- academicYear: "2026/2027",
- nationality:"Nigerian",
-
- results:[
-  {course:"ACC201", title:"Financial Accounting", unit:3, score:72, grade:"A"},
-  {course:"ECO201", title:"Microeconomics", unit:3, score:60, grade:"B"},
-  {course:"BUS202", title:"Business Law", unit:2, score:68, grade:"B"},
-  {course:"ACC203", title:"Cost Accounting", unit:3, score:75, grade:"A"}
- ],
-
-ca:[
-      {course:"Strategy and Sustainability in the Global Economy", courseCode:"HRM 742", unit:2, score:1},
-      {course:"Leadership and Change Management", courseCode:"HRM 713", unit:2, score:1},
-      {course:"Scientific Research and Statistical Analysis", courseCode:"HRM 745", unit:1, score:1},
-      {course:"Labor Laws and Legislations", courseCode:"HRM 731", unit:1, score:1},
-      {course:"Introduction to Construction Management", courseCode:"HRM 711", unit:2, score:1},
-      {course:"Employment Relations and Practices", courseCode:"HRM 784", unit:1, score:1},
-      {course:"Motivations & Compensations Management", courseCode:"HRM 755", unit:2, score:1},
-      {course:"Management Information System", courseCode:"MIS 710", unit:1, score:1},
-      {course:"Study Guide and Principles", courseCode:"GSD 709", unit:1, score:1},
-      {course:"Labour Law", courseCode:"HRM 763", unit:2, score:1},
-      {course:"Human Resource Planning and Staffing", courseCode:"HRM 714", unit:1, score:1},
-      {course:"Employment Relations and Practices", courseCode:"HRM 717", unit:2, score:1},
-      {course:"Building Information Modeling (BIM) & Digital Technology", courseCode:"CPM 716", unit:1, score:1},
-      {course:"English Knowledge and Application Skills", courseCode:"GSD 709", unit:1, score:1},
-      {course:"Leadership and Managing People", courseCode:"CPM 741", unit:1, score:1}
+    results: [
+      { course: "ACC201", title: "Financial Accounting", unit: 3, score: 72, grade: "A" },
+      { course: "ECO201", title: "Microeconomics", unit: 3, score: 60, grade: "B" },
+      { course: "BUS202", title: "Business Law", unit: 2, score: 68, grade: "B" },
+      { course: "ACC203", title: "Cost Accounting", unit: 3, score: 75, grade: "A" }
     ],
 
-    assignments:[
-      {course:"ACC201", title:"Assignment 1", score:17, total:20},
-      {course:"ECO201", title:"Assignment 1", score:14, total:20}
+    assignments: [
+      { course: "ACC201", title: "Assignment 1", score: 17, total: 20 },
+      { course: "ECO201", title: "Assignment 1", score: 14, total: 20 }
     ],
 
-
-
-gpa: 4.2
-
-},
-
-// students 2 Msc programme
-
-{
- username:"heah27",
- password:"1234",
- fullname:"Henry Ameh",
- matric:"2602027",
- programme:"Msc Construction project Management",
- faculty:"Management Science",
- department:"Construction project Management",
- semester:"First Semester",
- clearance:"Cleared",
- dob:"14-04-1983",
- certificateNumber:"NOT-ISSUED",
- admissionDate:"24-02-2026",
- graduationDate:"00-00-0000",
- gender:"Male",
- academicYear: "2026/2027",
- nationality:"Nigerian",
-
- results:[
-  {course:"ACC201", title:"Financial Accounting", unit:3, score:72, grade:"A"},
-  {course:"ECO201", title:"Microeconomics", unit:3, score:60, grade:"B"},
-  {course:"BUS202", title:"Business Law", unit:2, score:68, grade:"B"},
-  {course:"ACC203", title:"Cost Accounting", unit:3, score:75, grade:"A"}
- ],
-
-ca:[
-      {course:"Strategy and Sustainability in the Global Economy", courseCode:"HRM 742", unit:2, score:1},
-      {course:"Leadership and Change Management", courseCode:"HRM 713", unit:2, score:1},
-      {course:"Scientific Research and Statistical Analysis", courseCode:"HRM 745", unit:1, score:1},
-      {course:"Labor Laws and Legislations", courseCode:"HRM 731", unit:1, score:1},
-      {course:"Introduction to Construction Management", courseCode:"HRM 711", unit:2, score:1},
-      {course:"Employment Relations and Practices", courseCode:"HRM 784", unit:1, score:1},
-      {course:"Motivations & Compensations Management", courseCode:"HRM 755", unit:2, score:1},
-      {course:"Management Information System", courseCode:"MIS 710", unit:1, score:1},
-      {course:"Study Guide and Principles", courseCode:"GSD 709", unit:1, score:1},
-      {course:"Labour Law", courseCode:"HRM 763", unit:2, score:1},
-      {course:"Human Resource Planning and Staffing", courseCode:"HRM 714", unit:1, score:1},
-      {course:"Employment Relations and Practices", courseCode:"HRM 717", unit:2, score:1},
-      {course:"Building Information Modeling (BIM) & Digital Technology", courseCode:"CPM 716", unit:1, score:1},
-      {course:"English Knowledge and Application Skills", courseCode:"GSD 709", unit:1, score:1},
+    ca: [
+      { course: "Strategy and Sustainability in the Global Economy", courseCode: "HRM742", units: 2 },
+      { course: "Leadership and Change Management", courseCode: "HRM713", units: 2 },
+      { course: "Scientific Research and Statistical Analysis", courseCode: "HRM745", units: 1 },
+      { course: "Labor Laws and Legislations", courseCode: "HRM731", units: 1 },
+      { course: "Introduction to Construction Management", courseCode: "HRM711", units: 2 },
+      { course: "Employment Relations and Practices", courseCode: "HRM784", units: 1 },
+      { course: "Study Guide and Principles", courseCode: "GSD709", units: 1 },
+      { course: "Motivations & Compensations Management", courseCode: "HRM755", units: 2 },
+      { course: "Management Information System", courseCode: "MIS710", units: 1 },
+      { course: "Labour Law", courseCode: "HRM763", units: 2 },
+      { course: "Human Resource Planning and Staffing", courseCode: "HRM714", units: 1 },
+      { course: "Employment Relations and Practices", courseCode: "HRM717", units: 2 },
+      { course: "Risk Management and Sustainable Development", courseCode: "CPM712", units: 2 },
+      { course: "Building Information Modeling (BIM) & Digital Tech", courseCode: "CPM716", units: 1 },
+      { course: "English Knowledge and Application Skills", courseCode: "GSD709", units: 1 },
+      { course: "Leadership and Managing People", courseCode: "CPM741", units: 1 }
     ],
 
-    assignments:[
-      {course:"ACC201", title:"Assignment 1", score:17, total:20},
-      {course:"ECO201", title:"Assignment 1", score:14, total:20}
-    ],
-
-
-
-gpa: 4.2
-
-}
-
-
+    gpa: 4.2
+  }
 ];
 
 

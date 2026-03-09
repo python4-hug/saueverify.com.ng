@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignments</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MAIN NAVBAR -->
+<nav class="navbar">
+  <h3>Student Portal</h3>
+  <ul class="nav-links">
+    <li onclick="window.location='profile.html'">Profile</li>
+    <li onclick="window.location='results.html'">Results</li>
+    <li onclick="window.location='ca.html'">CA</li>
+    <li onclick="window.location='assignments.html'">Assignments</li>
+    <li class="logout" onclick="logout()">Logout</li>
+  </ul>
+</nav>
+
+<div class="assignments-container">
+  <h2>Assignments</h2>
+  <table id="assignmentsTable">
+    <tr>
+      <th>Course</th>
+      <th>courseCode</th>
+      <th>unit</th>
+      <th>score</th>
+    </tr>
+  </table>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

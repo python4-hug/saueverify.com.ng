@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MAIN NAVBAR -->
+<nav class="navbar">
+  <h3>Student Portal</h3>
+  <ul class="nav-links">
+    <li onclick="window.location='profile.html'">Profile</li>
+    <li onclick="window.location='results.html'">Results</li>
+    <li onclick="window.location='ca.html'">CA</li>
+    <li onclick="window.location='assignment.html'">Assignments</li>
+    <li onclick="window.location='gpa.html'">GPA</li>
+    <li class="logout" onclick="logout()">Logout</li>
+  </ul>
+</nav>
+
+<div class="gpa-container">
+  <h2>GPA</h2>
+  <p>Your current GPA is: <b id="studentGPA"></b></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

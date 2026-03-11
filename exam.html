@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Student Results</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<h3>Student Portal</h3>
+
+<ul class="nav-links">
+<li onclick="window.location='index.html'">Home</li>
+<li class="logout" onclick="logout()">Logout</li>
+</ul>
+
+</nav>
+
+
+<div class="results-container">
+
+<h2>My Semester Examination</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Course</th>
+<th>CourseCode</th>
+<th>Unit</th>
+<th>Score</th>
+</tr>
+</thead>
+
+<tbody id="examTable"></tbody>
+
+</table>
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>

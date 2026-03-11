@@ -65,7 +65,7 @@ gpa: 4.2
  semester:"First Semester",
  clearance:"Cleared",
  dob:"14-04-1983",
- certificateNumber:"NOT-ISSUED",
+ certificateNumber:"NIL",
  admissionDate:"24-02-2026",
  graduationDate:"00-00-0000",
  gender:"Male",
@@ -80,21 +80,21 @@ gpa: 4.2
  ],
 
 ca:[
-      {course:"Strategy and Sustainability in the Global Economy", courseCode:"HRM 742", unit:2, score:22},
-      {course:"Leadership and Change Management", courseCode:"HRM 713", unit:2, score:28},
-      {course:"Scientific Research and Statistical Analysis", courseCode:"HRM 745", unit:1, score:24},
-      {course:"Labor Laws and Legislations", courseCode:"HRM 731", unit:1, score:28},
-      {course:"Introduction to Construction Management", courseCode:"HRM 711", unit:2, score:28},
-      {course:"Employment Relations and Practices", courseCode:"HRM 784", unit:1, score:26},
-      {course:"Motivations & Compensations Management", courseCode:"HRM 755", unit:2, score:24},
-      {course:"Management Information System", courseCode:"MIS 710", unit:1, score:24},
-      {course:"Study Guide and Principles", courseCode:"GSD 709", unit:1, score:24},
-      {course:"Labour Law", courseCode:"HRM 763", unit:2, score:28},
-      {course:"Human Resource Planning and Staffing", courseCode:"HRM 714", unit:1, score:26},
-      {course:"Employment Relations and Practices", courseCode:"HRM 717", unit:2, score:28},
-      {course:"Building Information Modeling (BIM) & Digital Technology", courseCode:"CPM 716", unit:1, score:24},
-      {course:"English Knowledge and Application Skills", courseCode:"GSD 709", unit:1, score:28},
-      {course:"Leadership and Managing People", courseCode:"CPM 741", unit:1, score:24}
+      {course:"Strategy and Sustainability in the Global Economy", courseCode:"HRM 742", unit:2, score:1},
+      {course:"Leadership and Change Management", courseCode:"HRM 713", unit:2, score:1},
+      {course:"Scientific Research and Statistical Analysis", courseCode:"HRM 745", unit:1, score:1},
+      {course:"Labor Laws and Legislations", courseCode:"HRM 731", unit:1, score:1},
+      {course:"Introduction to Construction Management", courseCode:"HRM 711", unit:2, score:1},
+      {course:"Employment Relations and Practices", courseCode:"HRM 784", unit:1, score:1},
+      {course:"Motivations & Compensations Management", courseCode:"HRM 755", unit:2, score:1},
+      {course:"Management Information System", courseCode:"MIS 710", unit:1, score:1},
+      {course:"Study Guide and Principles", courseCode:"GSD 709", unit:1, score:1},
+      {course:"Labour Law", courseCode:"HRM 763", unit:2, score:1},
+      {course:"Human Resource Planning and Staffing", courseCode:"HRM 714", unit:1, score:1},
+      {course:"Employment Relations and Practices", courseCode:"HRM 717", unit:2, score:1},
+      {course:"Building Information Modeling (BIM) & Digital Technology", courseCode:"CPM 716", unit:1, score:1},
+      {course:"English Knowledge and Application Skills", courseCode:"GSD 709", unit:1, score:1},
+      {course:"Leadership and Managing People", courseCode:"CPM 741", unit:1, score:1}
     ],
 
     assignments:[
@@ -121,7 +121,7 @@ gpa: 4.2
  semester:"First Semester",
  clearance:"Cleared",
  dob:"14-04-1983",
- certificateNumber:"NOT-ISSUED",
+ certificateNumber:"NIL",
  admissionDate:"24-02-2026",
  graduationDate:"00-00-0000",
  gender:"Male",
@@ -136,20 +136,20 @@ gpa: 4.2
  ],
 
 ca:[
-      {course:"Strategy and Sustainability in the Global Economy", courseCode:"HRM 742", unit:2, score:26},
-      {course:"Leadership and Change Management", courseCode:"HRM 713", unit:2, score:24},
-      {course:"Scientific Research and Statistical Analysis", courseCode:"HRM 745", unit:1, score:28},
-      {course:"Labor Laws and Legislations", courseCode:"HRM 731", unit:1, score:28},
-      {course:"Introduction to Construction Management", courseCode:"HRM 711", unit:2, score:26},
-      {course:"Employment Relations and Practices", courseCode:"HRM 784", unit:1, score:22},
-      {course:"Motivations & Compensations Management", courseCode:"HRM 755", unit:2, score:28},
-      {course:"Management Information System", courseCode:"MIS 710", unit:1, score:26},
-      {course:"Study Guide and Principles", courseCode:"GSD 709", unit:1, score:24},
-      {course:"Labour Law", courseCode:"HRM 763", unit:2, score:28},
-      {course:"Human Resource Planning and Staffing", courseCode:"HRM 714", unit:1, score:26},
-      {course:"Employment Relations and Practices", courseCode:"HRM 717", unit:2, score:22},
-      {course:"Building Information Modeling (BIM) & Digital Technology", courseCode:"CPM 716", unit:1, score:28},
-      {course:"English Knowledge and Application Skills", courseCode:"GSD 709", unit:1, score:22},
+      {course:"Strategy and Sustainability in the Global Economy", courseCode:"HRM 742", unit:2, score:1},
+      {course:"Leadership and Change Management", courseCode:"HRM 713", unit:2, score:1},
+      {course:"Scientific Research and Statistical Analysis", courseCode:"HRM 745", unit:1, score:1},
+      {course:"Labor Laws and Legislations", courseCode:"HRM 731", unit:1, score:1},
+      {course:"Introduction to Construction Management", courseCode:"HRM 711", unit:2, score:1},
+      {course:"Employment Relations and Practices", courseCode:"HRM 784", unit:1, score:1},
+      {course:"Motivations & Compensations Management", courseCode:"HRM 755", unit:2, score:1},
+      {course:"Management Information System", courseCode:"MIS 710", unit:1, score:1},
+      {course:"Study Guide and Principles", courseCode:"GSD 709", unit:1, score:1},
+      {course:"Labour Law", courseCode:"HRM 763", unit:2, score:1},
+      {course:"Human Resource Planning and Staffing", courseCode:"HRM 714", unit:1, score:1},
+      {course:"Employment Relations and Practices", courseCode:"HRM 717", unit:2, score:1},
+      {course:"Building Information Modeling (BIM) & Digital Technology", courseCode:"CPM 716", unit:1, score:1},
+      {course:"English Knowledge and Application Skills", courseCode:"GSD 709", unit:1, score:1},
     ],
 
     assignments:[
@@ -161,15 +161,366 @@ ca:[
 
 gpa: 4.2
 
-}
+},
+
+// students 3 PGD programme
+
+{
+ username:"kezeck02",
+ password:"1234",
+ fullname:"Eze Celestine Kenechukwu",
+ matric:"2401002",
+ programme:"Post Graduate Diploma in Educational Planning and Management (PGDE)",
+ faculty:"Education",
+ department:"Educational Planning and Management",
+ semester:"Alumni",
+ clearance:"Duly Completed and Cleared",
+ dob:"23-05-1977",
+ certificateNumber:"024-0102",
+ admissionDate:"20-02-2023",
+ graduationDate:"05-10-2023",
+ gender:"Male",
+ academicYear: "2024/2025",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+              ],
+
+
+
+gpa: 4.2
+
+},
+
+// students 3 MED programme
+
+{
+ username:"kezeck02",
+ password:"5678",
+ fullname:"Eze Celestine Kenechukwu",
+ matric:"2401002",
+ programme:"MED Educational Planning and Management",
+ faculty:"Education",
+ department:"Educational Planning and Management",
+ semester:"Alumni",
+ clearance:"Duly Completed and Cleared",
+ dob:"23-05-1977",
+ certificateNumber:"024-0102",
+ admissionDate:"20-02-2023",
+ graduationDate:"05-10-2023",
+ gender:"Male",
+ academicYear: "2024/2025",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+              ],
+
+gpa: 4.2
+
+},
+
+//student 4 PGD programme
+
+{
+ username:"ruad17",
+ password:"1234",
+ fullname:"Ruth Adejoh",
+ matric:"2401017",
+ programme:"Post Graduate Diploma of Education in Guidiance and Counselling (PGDE)",
+ faculty:"Education",
+ department:"Guidiance and Counselling",
+ semester:"Alumni",
+ clearance:"Awaiting",
+ dob:"00-00-0000",
+ certificateNumber:"024-0117",
+ admissionDate:"20-02-2023",
+ graduationDate:"05-10-2023",
+ gender:"Female",
+ academicYear: "2024/2025",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+              ],
+
+gpa: 4.2
+
+},
+
+
+// student 4 MSC Programme
+
+{
+ username:"ruad17",
+ password:"efgh",
+ fullname:"Ruth Adejoh",
+ matric:"2401017",
+ programme:"Master of Education in Guidiance and Counselling (M.Ed)",
+ faculty:"Education",
+ department:"Guidiance and Counselling",
+ semester:"Alumni",
+ clearance:"Awaiting",
+ dob:"00-00-0000",
+ certificateNumber:"024-0117",
+ admissionDate:"20-02-2023",
+ graduationDate:"05-10-2023",
+ gender:"Female",
+ academicYear: "2024/2025",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+              ],
+
+gpa: 4.2
+
+},
+
+// student 5 MSC
+
+{
+ username:"ibak06",
+ password:"cfgh",
+ fullname:"Ibrahim Ali Kolo",
+ matric:"2409006",
+ programme:"Master of Science in Human Resources Management (M.Sc)",
+ faculty:"Management Science",
+ department:"Human Resources Management",
+ semester:"Alumni",
+ clearance:"Duly Completed and Cleared",
+ dob:"00-00-0000",
+ certificateNumber:"024-0109",
+ admissionDate:"20-02-2023",
+ graduationDate:"05-10-2023",
+ gender:"Male",
+ academicYear: "2024/2025",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+              ],
+
+gpa: 4.2
+
+},
+
+// student 5 PGD
+
+{
+ username:"ibak06",
+ password:"fmci",
+ fullname:"Ibrahim Ali Kolo",
+ matric:"2409006",
+ programme:"Post Graduate Diploma in Human Resources Management (PGDE)",
+ faculty:"Management Science",
+ department:"Human Resources Management",
+ semester:"Alumni",
+ clearance:"Duly Completed and Cleared",
+ dob:"00-00-0000",
+ certificateNumber:"024-0109",
+ admissionDate:"20-02-2023",
+ graduationDate:"05-10-2023",
+ gender:"Male",
+ academicYear: "2024/2025",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+              ],
+
+gpa: 4.2
+
+},
+
+// student 6 
+
+{
+ username:"ebw001",
+ password:"hnds",
+ fullname:"Elizabeth Bankume Wilson",
+ matric:"2506001",
+ programme:"Master of Education in Early Childhood and Educational Foundation (M.Ed)",
+ faculty:"Education",
+ department:"Early Childhood and Educational Foundation",
+ semester:"Third",
+ clearance:"Cleared",
+ dob:"00-00-0000",
+ certificateNumber:"NIL",
+ admissionDate:"11-07-2025",
+ graduationDate:"NIL",
+ gender:"Female",
+ academicYear:"2025/2026",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+              ],
+
+gpa: 4.2
+
+},
+
+// student 7
+
+{
+ username:"buas18",
+ password:"amis",
+ fullname:"Buhari Abubakar Sadiq",
+ matric:"2409018",
+ programme:"Master of Science in Human Resources Management (M.Sc)",
+ faculty:"Management Science",
+ department:"Human Resources Management",
+ semester:"Alumni",
+ clearance:"Duly Completed and Cleared",
+ dob:"27-03-1993",
+ certificateNumber:"024-0118",
+ admissionDate:"20-02-2023",
+ graduationDate:"05-10-2023",
+ gender:"Male",
+ academicYear: "2024/2025",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+              ],
+
+gpa: 4.2
+
+},
+
+// student 8
+
+{
+ username:"tau002",
+ password:"yems",
+ fullname:"Talatu Umar",
+ matric:"2506002",
+ programme:"Master of Education in Guidiance and Counselling (M.Ed)",
+ faculty:"Education",
+ department:"Guidiance and Counselling",
+ semester:"Third",
+ clearance:"Cleared",
+ dob:"00-00-0000",
+ certificateNumber:"NIL",
+ admissionDate:"11-07-2025",
+ graduationDate:"NIL",
+ gender:"Female",
+ academicYear:"2025/2026",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+              ],
+
+gpa: 4.2
+
+},
 
 
 ];
 
-
-// =======================
 // LOGIN FUNCTION
-// =======================
 
 function login(){
 
@@ -337,6 +688,37 @@ if(window.location.pathname.includes("assignments.html")) {
   }
 }
 
+// LOAD EXAMS
+
+if(window.location.pathname.includes("exam.html")) {
+
+  const student = JSON.parse(localStorage.getItem("loggedStudent"));
+
+  if(!student){
+    window.location = "index.html";
+  }
+
+  const table = document.getElementById("examTable");
+
+  if(table && student.exams){
+
+    table.innerHTML = ""; // clear previous content
+
+    student.exams.forEach(item => {
+      table.innerHTML += `
+        <tr>
+          <td>${item.course}</td>
+          <td>${item.courseCode}</td>
+          <td>${item.unit}</td>
+          <td>${item.score}</td>
+        </tr>
+      `;
+    });
+
+  }
+
+}
+
 // load ca
 if(window.location.pathname.includes("ca.html")) {
 
@@ -412,7 +794,7 @@ const typingElement=document.getElementById("typing");
 
 if(typingElement){
 
-const text = "Welcome to the Student Portal";
+const text = "Welcome to the Student Verification Portal";
 let i = 0;
 
 function typeWriter(){
@@ -443,6 +825,5 @@ if(pass.type==="password"){
 }else{
  pass.type="password";
 }
-
 
 }

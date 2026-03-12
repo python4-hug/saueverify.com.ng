@@ -180,7 +180,7 @@ gpa: 4.2
  admissionDate:"20-02-2023",
  graduationDate:"05-10-2023",
  gender:"Male",
- academicYear: "2024/2025",
+ academicYear: "2023/2024",
  nationality:"Nigerian",
 
  results:[
@@ -520,17 +520,17 @@ gpa: 4.2
 // student 9
 
 {
- username:"maim04",
+ username:"maih04",
  password:"1234",
  fullname:"Miamuna Mohammed",
- matric:"000",
+ matric:"221004",
  programme:"Bachelor of Education (B.Ed)",
  faculty:"Education",
  department:"Educational Planning and Management",
  semester:"Alumni",
  clearance:"Cleared",
  dob:"20-04-2002",
- certificateNumber:"NIL",
+ certificateNumber:"022-0927",
  admissionDate:"20-10-2022",
  graduationDate:"2025",
  gender:"Female",
@@ -598,18 +598,18 @@ gpa: 4.2
 // student 11
 
 {
- username:"hav107",
+ username:"havi07",
  password:"efgh",
- fullname:"Hamman Victoria",
+ fullname:"Hamman David Victoria",
  matric:"2508010",
  programme:"Master of Science (M.Sc)",
  faculty:"Agriculture",
  department:"Nutrition and Diatetics",
  semester:"2nd",
  clearance:"Cleared",
- dob:"00-00-0000",
+ dob:"10-04-1966",
  certificateNumber:"NIL",
- admissionDate:"07-08-2025",
+ admissionDate:"18-08-2025",
  graduationDate:"NIL",
  gender:"Female",
  academicYear:"2025/2026",
@@ -640,18 +640,18 @@ gpa: 4.2
  username:"feha08",
  password:"swah",
  fullname:"Felicia Hamidu",
- matric:"00000",
- programme:"Ba of Science (B.Sc)",
- faculty:"Agriculture",
- department:"Nutrition and Diatetics",
- semester:"2nd",
+ matric:"221105",
+ programme:"Bachelor of Science (B.Sc)",
+ faculty:"Science",
+ department:"Public Health",
+ semester:"Alumni",
  clearance:"Cleared",
- dob:"00-00-0000",
+ dob:"18-04-1985",
  certificateNumber:"NIL",
- admissionDate:"07-08-2025",
- graduationDate:"NIL",
+ admissionDate:"20-10-2022",
+ graduationDate:"22-07-2025",
  gender:"Female",
- academicYear:"2025/2026",
+ academicYear:"2022/2023",
  nationality:"Nigerian",
 
  results:[
@@ -672,6 +672,46 @@ ca:[
 gpa: 4.2
 
 },
+
+// student 13
+
+{
+ username:"gais06",
+ password:"abcd",
+ fullname:"Gambo Isaac",
+ matric:"221004",
+ programme:"Bachelor of Science (B.Sc)",
+ faculty:"Science",
+ department:"Public Health",
+ semester:"Alumni",
+ clearance:"Cleared",
+ dob:"20-10-1980",
+ certificateNumber:"NIL",
+ admissionDate:"20-10-2022",
+ graduationDate:"22-07-2025",
+ gender:"Male",
+ academicYear:"2022/2023",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+              ],
+
+gpa: 4.2
+
+},
+
 
 ];
 

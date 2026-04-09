@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programmes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+<h3>Student Portal</h3>
+<ul class="nav-links">
+<li><a href="profile.html">Profile</a></li>
+<li onclick="logout()" class="logout">Logout</li>
+</ul>
+</nav>
+
+<!-- PROGRAMMES -->
+<div class="programme-container">
+
+<div class="programme-card" onclick="showProgramme('msc')">
+<h2>MSc</h2>
+<p>Master Degree Programmes</p>
+</div>
+
+<div class="programme-card" onclick="showProgramme('pgd')">
+<h2>PGD</h2>
+<p>Postgraduate Diploma</p>
+</div>
+
+<div class="programme-card" onclick="showProgramme('ug')">
+<h2>UG</h2>
+<p>Undergraduate Programmes</p>
+</div>
+
+</div>
+
+<!-- DISPLAY AREA -->
+<div id="programmeDetails" class="programme-details"></div>
+
+<script src="app.js"></script>
+</body>
+</html>

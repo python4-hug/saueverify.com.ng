@@ -73,11 +73,22 @@ gpa: 4.2
  nationality:"Nigerian",
 
  results:[
-  {course:"ACC201", title:"Financial Accounting", unit:3, score:72, grade:"A"},
-  {course:"ECO201", title:"Microeconomics", unit:3, score:60, grade:"B"},
-  {course:"BUS202", title:"Business Law", unit:2, score:68, grade:"B"},
-  {course:"ACC203", title:"Cost Accounting", unit:3, score:75, grade:"A"}
- ],
+  {course:"HRM 742", title:"Strategy and Sustainability in the Global Economy", unit:2, score:84, grade:"A"},
+  {course:"HRM 713", title:"Leadership and Change Management", unit:2, score:86, grade:"A"},
+  {course:"HRM 745", title:"Scientific Research and Statistical Analysis", unit:1, score:84, grade:"A"},
+  {course:"HRM 731", title:"Labor Laws and Legislations", unit:1, score:82, grade:"A"},
+  {course:"HRM 711", title:"Introduction to Construction Management", unit:2, score:64, grade:"B"},
+  {course:"HRM 784", title:"Employment Relations and Practices", unit:1, score:82, grade:"A"},
+  {course:"GSD 709", title:"Study Guide and Principles", unit:1, score:94, grade:"A"},
+  {course:"HRM 755", title:"Motivations & Compensations Management", unit:2, score:88, grade:"A"},
+  {course:"MIS 710", title:"Management Information System", unit:1, score:82, grade:"A"},
+  {course:"HRM 763", title:"Labour Law", unit:2, score:74, grade:"A"},
+  {course:"HRM 717", title:"Employment Relations and Practices", unit:2, score:86, grade:"A"},
+  {course:"CPM 712", title:"Risk Management and Sustainable Development:", unit:2, score:78, grade:"A"},
+  {course:"CPM 716", title:"Building Information Modeling (BIM) & Digital Technology", unit:1, score:56, grade:"C"},
+  {course:"GSD 709", title:"English Knowledge and Application Skills ", unit:1, score:82, grade:"A"},
+  {course:"CPM 741", title:"Leadership and Managing People", unit:1, score:74, grade:"A"},
+   ],
 
 ca:[
       {course:"Strategy and Sustainability in the Global Economy", courseCode:"HRM 742", unit:2, score:1},
@@ -129,10 +140,21 @@ gpa: 4.2
  nationality:"Nigerian",
 
  results:[
-  {course:"ACC201", title:"Financial Accounting", unit:3, score:72, grade:"A"},
-  {course:"ECO201", title:"Microeconomics", unit:3, score:60, grade:"B"},
-  {course:"BUS202", title:"Business Law", unit:2, score:68, grade:"B"},
-  {course:"ACC203", title:"Cost Accounting", unit:3, score:75, grade:"A"}
+  {course:"HRM 842", title:"Strategy and Sustainability in the Global Economy", unit:2, score:80, grade:"A"},
+  {course:"HRM 813", title:"Leadership and Change Management", unit:2, score:76, grade:"A"},
+  {course:"HRM 837", title:"Human Resource Training & Development", unit:1, score:64, grade:"B"},
+  {course:"HRM 876", title:"Strategic Human Resource Management", unit:1, score:80, grade:"A"},
+  {course:"GSD 809", title:"Study Guide and Principles", unit:2, score:84, grade:"A"},
+  {course:"CPM 801", title:"Introduction to Construction Project Management", unit:2, score:64, grade:"B"},
+  {course:"HRM 810", title:"Innovation, Entrepreneurship, and Delivering Change", unit:1, score:74, grade:"A"},
+  {course:"HRM 878", title:"Engaging the Diverse Workforce", unit:2, score:80, grade:"A"},
+  {course:"MIS 810", title:"Management Information System", unit:1, score:78, grade:"A"},
+  {course:"HRM 863", title:"Labour Law", unit:2, score:80, grade:"A"},
+  {course:"HRM 814", title:"Human Resource Planning and Staffing", unit:2, score:72, grade:"A"},
+  {course:"HRM 817", title:"Employment Relations and Practices:", unit:2, score:84, grade:"A"},
+  {course:"CPM 818", title:"Construction Economics and Finance", unit:2, score:56, grade:"C"},
+  {course:"CPM 816", title:"Construction Contract Law & Procurement:", unit:1, score:58, grade:"C"},
+  {course:"GSD 809", title:"English Knowledge and Application Skills ", unit:1, score:88, grade:"A"},
  ],
 
 ca:[
@@ -453,8 +475,8 @@ gpa: 4.2
  clearance:"Duly Completed and Cleared",
  dob:"27-03-1993",
  certificateNumber:"024-0118",
- admissionDate:"20-02-2023",
- graduationDate:"05-10-2023",
+ admissionDate:"22-10-2024",
+ graduationDate:"16-12-2025",
  gender:"Male",
  academicYear: "2024/2025",
  nationality:"Nigerian",
@@ -872,7 +894,7 @@ gpa: 4.2
 
   {
   username:"sugi39",
- password:"lmnh",
+ password:"lmnhI",
  fullname:"Suleiman Gidieon",
  matric:"240701",
  programme:"Bachelor of Science (B.Sc)",
@@ -1240,7 +1262,16 @@ gpa: 4.2
  nationality:"Nigerian",
 
  results:[
-  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+  {course:"PUB 345", title:"Organization and Administrative Theories", unit:2, score:64, grade:"B"},
+  {course:"PUB 339", title:"Personnel Administration", unit:2, score:58, grade:"C"},
+  {course:"PUB 371", title:"Public Productivity Management and Measurement", unit:2, score:52, grade:"C"},
+  {course:"PUB 382", title:"Research Methods in Public Administration", unit:2, score:58, grade:"C"},
+  {course:"MIS 310", title:"Management Information System", unit:3, score:76, grade:"A"},
+  {course:"ENR 310", title:"Entrepreneurial Skills Development and Practice", unit:2, score:84, grade:"A"},
+  {course:"GSD 310", title:"Academic Research Methods", unit:2, score:58, grade:"C"},
+  {course:"GSD 311", title:"Leadership Skills", unit:2, score:72, grade:"A"},
+  {course:"LAW 318", title:"Administrative Law", unit:2, score:70, grade:"A"},
+  {course:"POL 311", title:"Intergovernmental Relations", unit:2, score:80, grade:"A"},
  ],
 
 ca:[
@@ -1684,4 +1715,157 @@ if(pass.type==="password"){
  pass.type="password";
 }
 
+}
+
+// =======================
+// PROGRAMME DISPLAY
+// =======================
+
+function showProgramme(type) {
+    const container = document.getElementById("programmeDetails");
+    if (!container) return;
+
+    if (type === "msc") {
+        container.innerHTML = `
+        <h2>MSc Programmes</h2>
+
+        <div class="semester-container">
+            <div class="semester-card" onclick="showSemester('sem1')">1st Semester</div>
+            <div class="semester-card" onclick="showSemester('sem2')">2nd Semester</div>
+            <div class="semester-card" onclick="showSemester('sem3')">3rd Semester</div>
+            <div class="semester-card" onclick="showSemester('sem4')">4th Semester</div>
+        </div>
+
+        <div id="semesterDetails"></div>
+        `;
+    } else if (type === "pgd") {
+        container.innerHTML = `
+        <h2>PGD Programmes</h2>
+
+        <div class="semester-container">
+            <div class="semester-card" onclick="showSemester('pgd1')">1st Semester</div>
+            <div class="semester-card" onclick="showSemester('pgd2')">2nd Semester</div>
+            <div class="semester-card" onclick="showSemester('pgd3')">3rd Semester</div>
+        </div>
+
+        <div id="semesterDetails"></div>
+        `;
+    } else if (type === "ug") {
+        container.innerHTML = `
+        <h2>Undergraduate Programmes</h2>
+
+        <div class="semester-container">
+            <div class="semester-card" onclick="showLevel('100')">100 Level</div>
+            <div class="semester-card" onclick="showLevel('200')">200 Level</div>
+            <div class="semester-card" onclick="showLevel('300')">300 Level</div>
+            <div class="semester-card" onclick="showLevel('400')">400 Level</div>
+        </div>
+
+        <div id="levelDetails"></div>
+        `;
+    }
+}
+
+// =======================
+// SHOW SEMESTER DETAILS
+// =======================
+
+function showSemester(sem) {
+    const container = document.getElementById("semesterDetails");
+    if (!container) return;
+
+    // reusable table (16 rows)
+    const table = `
+    <table class="course-table">
+    <tr>
+        <th>Course Code</th>
+        <th>Title</th>
+        <th>Unit</th>
+    </tr>
+
+    ${Array.from({ length: 16 }).map((_, i) => `
+    <tr>
+        <td>COURSE${i + 1}</td>
+        <td>Course Title ${i + 1}</td>
+        <td>${(i % 3) + 1}</td>
+    </tr>
+    `).join("")}
+
+    </table>
+    `;
+
+    // MSc
+    if (sem === "sem1") {
+        container.innerHTML = `<h3>MSc 1st Semester</h3>${table}`;
+    } else if (sem === "sem2") {
+        container.innerHTML = `<h3>MSc 2nd Semester</h3>${table}`;
+    } else if (sem === "sem3") {
+        container.innerHTML = `<h3>MSc 3rd Semester</h3>${table}`;
+    } else if (sem === "sem4") {
+        container.innerHTML = `<h3>MSc 4th Semester</h3>${table}`;
+    }
+    // PGD
+    else if (sem === "pgd1") {
+        container.innerHTML = `<h3>PGD 1st Semester</h3>${table}`;
+    } else if (sem === "pgd2") {
+        container.innerHTML = `<h3>PGD 2nd Semester</h3>${table}`;
+    }
+}
+
+// =======================
+// SHOW LEVEL
+// =======================
+
+function showLevel(level) {
+    const container = document.getElementById("levelDetails");
+    if (!container) return;
+
+    container.innerHTML = `
+    <h3>${level} Level</h3>
+
+    <div class="semester-container">
+        <div class="semester-card" onclick="showUGSemester('${level}-1')">1st Semester</div>
+        <div class="semester-card" onclick="showUGSemester('${level}-2')">2nd Semester</div>
+    </div>
+
+    <div id="ugSemesterDetails"></div>
+    `;
+}
+
+// =======================
+// SHOW UG SEMESTER
+// =======================
+
+function showUGSemester(sem) {
+    const container = document.getElementById("ugSemesterDetails");
+    if (!container) return;
+
+    // generate table
+    let rows = "";
+
+    for (let i = 1; i <= 16; i++) {
+        rows += `
+        <tr>
+            <td>${sem.replace("-", "")}C${i}</td>
+            <td>Course Title ${i}</td>
+            <td>${(i % 3) + 1}</td>
+        </tr>
+        `;
+    }
+
+    const table = `
+    <table class="course-table">
+    <tr>
+        <th>Course Code</th>
+        <th>Title</th>
+        <th>Unit</th>
+    </tr>
+    ${rows}
+    </table>
+    `;
+
+    container.innerHTML = `
+    <h3>${sem.includes("-1") ? "1st Semester" : "2nd Semester"}</h3>
+    ${table}
+    `;
 }

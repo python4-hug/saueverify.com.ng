@@ -1535,7 +1535,7 @@ gpa: 4.2
  programme:"BSc",
  faculty:"Management Science",
  department:"Business Addministration",
- semester:"Active"
+ semester:"Active",
  clearance:"Approved",
  dob:"00-00-0000",
  certificateNumber:"000-0000",

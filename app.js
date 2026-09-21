@@ -1411,7 +1411,7 @@ gpa: 4.2
 
 {
   username:"abcd",
- password:"amin204"
+ password:"amin204",
  fullname:"Anas Ismail Mu azu",
  matric:"2606204",
  programme:"BSc",

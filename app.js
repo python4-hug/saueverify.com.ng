@@ -1387,32 +1387,7 @@ gpa: 4.2
  academicYear:"2022/2023",
  nationality:"Nigerian",
 
- results:[
-  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
- ],
-
-ca:[
-    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
-    ],
-
-    assignments:[
-            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
-          ],
-          exams: [
-                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
-            ],
-
-gpa: 4.2
-
-},
-
-// student 31
-
-{
-  username:"lyne15",
- password:"1234",
- fullname:"Lydia Nehemiah",
- matric:"2409015",
+ results:
  programme:"BSc",
  faculty:"Social Science",
  department:"Mass Communication",
@@ -1445,7 +1420,165 @@ gpa: 4.2
 
 },
 
+
 // student 32
+
+{
+  username:"abcd",
+ password:"amin204"
+ fullname:"Anas Ismail Mu azu",
+ matric:"2606204",
+ programme:"BSc",
+ faculty:"Social Science",
+ department:"Geography",
+ semester:"Active",
+ clearance:"Uncleared",
+ dob:"16-06-1993",
+ certificateNumber:"000-0000",
+ admissionDate:"12-06-2026",
+ graduationDate:"00-00-0000",
+ gender:"Male",
+ academicYear:"2026/2027",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+
+// student 33
+
+{
+  username:"arbc",
+ password:"chea029",
+ fullname:"Christiana Elkanah Lawal",
+ matric:"2607029",
+ programme:"MSc",
+ faculty:"Science",
+ department:"Public Health",
+ semester:"Active",
+ clearance:"Cleared",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"28-07-2026",
+ graduationDate:"00-00-0000",
+ gender:"Female",
+ academicYear:"2026/2027",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 34
+
+{
+  username:"stuv",
+ password:"famw30",
+ fullname:"Fadimuatu Modibbo Lawal",
+ matric:"2608030",
+ programme:"MSc",
+ faculty:"Social Science",
+ department:"Peace and Conflict Studies",
+ semester:"Active",
+ clearance:"Cleared",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"09-08-2026",
+ graduationDate:"00-00-0000",
+ gender:"Female",
+ academicYear:"2026/2027",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 35
+
+{
+  username:"ghij",
+ password:"katz205",
+ fullname:"Kwawai Tessy Zigwai",
+ matric:"2606205",
+ programme:"BSc",
+ faculty:"Management Science",
+ department:"Business Addministration",
+ semester:"Active"
+ clearance:"Approved",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"12-06-2026",
+ graduationDate:"00-00-0000",
+ gender:"Female",
+ academicYear:"2026/2027",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 36
 
 {
   username:"lyne15",

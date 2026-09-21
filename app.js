@@ -1387,20 +1387,6 @@ gpa: 4.2
  academicYear:"2022/2023",
  nationality:"Nigerian",
 
- results:
- programme:"BSc",
- faculty:"Social Science",
- department:"Mass Communication",
- semester:"First Semester",
- clearance:"Cleared",
- dob:"00-00-0000",
- certificateNumber:"000-0000",
- admissionDate:"23-09-2024",
- graduationDate:"27-11-2027",
- gender:"Female",
- academicYear:"2024/2025",
- nationality:"Nigerian",
-
  results:[
   {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
  ],

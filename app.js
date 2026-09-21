@@ -1603,6 +1603,436 @@ gpa: 4.2
 
 },
 
+
+// student 37
+
+{
+  username:"bwal008",
+ password:"cgfr",
+ fullname:"BWALSOM PETER",
+ matric:"2601008",
+ programme:"BSc",
+ faculty:"Social Science",
+ department:"Sociology",
+ semester:"First Semester",
+ clearance:"Active",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"04-02-2026",
+ graduationDate:"00-00-0000",
+ gender:"Male",
+ academicYear:"2026/2027",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 38
+
+{
+  username:"jusj007",
+ password:"cgfr",
+ fullname:"JUSTINA JOHN",
+ matric:"2601007",
+ programme:"B. Ed",
+ faculty:"Education",
+ department:"Adult Education",
+ semester:"First Semester",
+ clearance:"Active",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"04-02-2026",
+ graduationDate:"00-00-0000",
+ gender:"Female",
+ academicYear:"2026/2027",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 39
+
+{
+  username:"smu047",
+ password:"cgfr",
+ fullname:"Saratu Musa",
+ matric:"2506047",
+ programme:"B. Ed",
+ faculty:"Education",
+ department:"Guidance and Counselling",
+ semester:"First Semester",
+ clearance:"Active",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"04-02-2026",
+ graduationDate:"00-00-0000",
+ gender:"Female",
+ academicYear:"2026/2027",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 40
+
+{
+  username:"aiab002",
+ password:"5470",
+ fullname:"Aishatu Abubakar Abdullahi",
+ matric:"2601002",
+ programme:"B. Ed",
+ faculty:"Education",
+ department:"Adult Education",
+ semester:"First Semester",
+ clearance:"Active",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"04-02-2026",
+ graduationDate:"00-00-0000",
+ gender:"Female",
+ academicYear:"2026/2027",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 41
+
+{
+  username:"gmb003",
+ password:"cgfr",
+ fullname:"GREMA MOHAMMED BUKAR",
+ matric:"2506003",
+ programme:"B. Ed",
+ faculty:"Education",
+ department:"Guidance and Counselling",
+ semester:"Second Semester",
+ clearance:"Active",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"04-02-2026",
+ graduationDate:"00-00-0000",
+ gender:"Male",
+ academicYear:"2025/2026",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 42
+
+{
+  username:"merb003",
+ password:"1010",
+ fullname:"Mercy Bitrus",
+ matric:"2601003",
+ programme:"B. Ed",
+ faculty:"Education",
+ department:"Guidance and Counselling",
+ semester:"First Semester",
+ clearance:"Active",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"04-02-2026",
+ graduationDate:"00-00-0000",
+ gender:"Female",
+ academicYear:"2026/2027",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 43
+
+{
+  username:"kym123",
+ password:"ijmf",
+ fullname:"Kiyama John",
+ matric:"2601045",
+ programme:"B. Ed",
+ faculty:"Education",
+ department:"Adult Education",
+ semester:"First Semester",
+ clearance:"Active",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"04-02-2026",
+ graduationDate:"00-00-0000",
+ gender:"Male",
+ academicYear:"2026/2027",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 44
+
+{
+  username:"ibms02",
+ password:"ijmf",
+ fullname:"Ibrahim Musa",
+ matric:"240702",
+ programme:"BSC",
+ faculty:"Science ",
+ department:"Public Health",
+ semester:"First Semester",
+ clearance:"Active",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"04-02-2026",
+ graduationDate:"00-00-0000",
+ gender:"Male",
+ academicYear:"2024/2025",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 45
+
+{
+  username:"olk017",
+ password:"ijmf",
+ fullname:"Oladunjoye Kayode Oluwasola",
+ matric:"2409017",
+ programme:"MSC",
+ faculty:"Science ",
+ department:"Public Health",
+ semester:"First Semester",
+ clearance:"Active",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"04-02-2026",
+ graduationDate:"00-00-0000",
+ gender:"Male",
+ academicYear:"2024/2025",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 46
+
+{
+  username:"tkm009",
+ password:"jhgt",
+ fullname:"Timothy Kwada Mathias",
+ matric:"2506009",
+ programme:"MSC",
+ faculty:"Health Sciences and Technolog",
+ department:"Nutrition and Dietetics",
+ semester:"Second Semester",
+ clearance:"Active",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"04-02-2026",
+ graduationDate:"00-00-0000",
+ gender:"Male",
+ academicYear:"2025/2026",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
+// student 47
+
+{
+  username:"maed01",
+ password:"jhgt",
+ fullname:"Mary Edison",
+ matric:"250101",
+ programme:"BSC",
+ faculty:"Education",
+ department:"Guidance and Counseling",
+ semester:"Second Semester",
+ clearance:"Active",
+ dob:"00-00-0000",
+ certificateNumber:"000-0000",
+ admissionDate:"04-02-2026",
+ graduationDate:"00-00-0000",
+ gender:"Female",
+ academicYear:"2025/2026",
+ nationality:"Nigerian",
+
+ results:[
+  {course:"All Courses Assesed", title:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+ ],
+
+ca:[
+    {course:"All Courses Assesed Evaluated And Transmitted to Certified True Copy Of Official Tanscript", title:"NIL", unit:0, score:0, grade:"NIL"}  
+    ],
+
+    assignments:[
+            {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}
+          ],
+          exams: [
+                {course:"All Courses Assesed", courseCode:"Evaluated And Transmitted to Certified True Copy Of Official Tanscript", unit:0, score:0, grade:"NIL"}      
+            ],
+
+gpa: 4.2
+
+},
+
 ];
 
 // LOGIN FUNCTION
